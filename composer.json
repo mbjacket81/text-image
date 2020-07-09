@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "mbjacket81/tools": "^2.0.0"
+        "mbjacket81/tools": "dev-master"
     },
     "require-dev": {
         "codeception/codeception": "^4.1.6",
