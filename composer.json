@@ -1,5 +1,5 @@
 {
-    "name": "rathouz/text-image",
+    "name": "mbjacket81/text-image",
     "type": "library",
     "description": "A simple PHP library to convert text to images.",
     "keywords": ["image", "text", "converting", "gd"],
@@ -12,12 +12,12 @@
         }
     ],
     "support": {
-        "email": "trathouz@gmail.com",
-        "issues": "https://github.com/rathouz/data-tree/issues/"
+        "email": "mbjacket81@gmail.com",
+        "issues": "https://github.com/mbjacket81/data-tree/issues/"
     },
     "require": {
-        "php": ">=5.4.0",
-        "rathouz/tools": "^2.0"
+        "php": ">=7.3",
+        "mbjacket81/tools": "@dev"
     },
     "require-dev": {
         "codeception/codeception": "2.1.*",
@@ -33,7 +33,7 @@
     },
     "scripts": {
         "test": "vendor\\bin\\codecept run --env local",
-        "syntax": "vendor\\bin\\phpcs --standard=vendor/rathouz/tools/assets/coding-standards/standards.xml --colors --encoding=utf-8 -sp src/",
-        "syntax-fix": "vendor\\bin\\phpcbf --standard=vendor/rathouz/tools/assets/coding-standards/standards.xml src/"
+        "syntax": "vendor\\bin\\phpcs --standard=vendor/mbjacket81/tools/assets/coding-standards/standards.xml --colors --encoding=utf-8 -sp src/",
+        "syntax-fix": "vendor\\bin\\phpcbf --standard=vendor/mbjacket81/tools/assets/coding-standards/standards.xml src/"
     }
 }
